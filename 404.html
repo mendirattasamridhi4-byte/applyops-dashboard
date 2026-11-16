@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>ApplyOps</title>
+    <script>
+      // GitHub Pages serves this for unknown paths. The app lives at the project root with hash routes, so go there.
+      (function () {
+        var parts = location.pathname.split("/").filter(Boolean);
+        var root = location.hostname.endsWith("github.io") && parts.length ? "/" + parts[0] + "/" : "/";
+        location.replace(root + "#/");
+      })();
+    </script>
+  </head>
+  <body>
+    <p style="font-family: system-ui, sans-serif; padding: 24px">Taking you to ApplyOps…</p>
+  </body>
+</html>
